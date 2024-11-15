@@ -1,0 +1,31 @@
+# Ignorer les fichiers temporaires d'éditeurs
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignorer les fichiers de compilation
+*.o
+*.out
+*.class
+*.pyc
+*.pyo
+*.exe
+
+# Ignorer les dossiers spécifiques
+__pycache__/
+node_modules/
+build/
+dist/
+
+# Ignorer les fichiers de configuration
+*.env
+*.config
+*.log
+
+# Ignorer les fichiers générés par Git
+.git/
+
+# Ignorer les fichiers spécifiques au projet
+secret.key
+database.sqlite
